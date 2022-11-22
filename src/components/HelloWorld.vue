@@ -1,6 +1,7 @@
 <script>
 import axios from 'axios';
 axios.defaults.baseURL = 'https://csrf-token-api.herokuapp.com/api';
+axios.defaults.withCredentials = true;
 
 export default {
     data() {
